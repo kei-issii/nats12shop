@@ -1,0 +1,43 @@
+  
+  
+  h1,h2,h3 {font-size: 38px;
+           font-weight:100;
+           color: #49f;
+           color: #f94;}
+
+
+
+
+
+
+/*@charset "UTF-8";
+<style type="text/css">
+h1 { color: 適当な色; }
+</style>
+body {
+    font-family: Meiryo, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+    margin: 0; padding: 0; font-size: 12px; color: #333;
+background-image: url(img/back.gif); background-repeat: no-repeat;
+background-position: center top; text-align: center;
+
+/*css*/
+/*{border: 1px solid #ccc} /*
+  
+/*カンマの意味を覚えよう
+p,div,span,i,span{width: 222px}
+p,div,span,i,span{margin-top:100px 150px;}
+
+/*まとめ書き(ショートハンド)を覚えよう*/
+/*p,div,span,i,span{margin-left:100px 150px;}
+/*時計回り/*
+
+/*下に書いた方(後から読み込んだほうが優先)*//*css*/
+/*{border: 1px solid #ccc}/*
+p,div,i,span{width: 222px}
+/* カンマの意味を覚えよう */
+/*p,div,i,span{margin:50px 100px ;}
+p,div,i,span{margin:50px ;}
+p,div,i,span{margin:50px 100px 25px;}
+/*まとめ書き(ショートハンド)を覚えよう*/
+/*p,div,i,span{margin:51px 102px 50px 100px;} /*時計回り*/
+/*下に書いた方(後から読み込んだほうが優先)*/

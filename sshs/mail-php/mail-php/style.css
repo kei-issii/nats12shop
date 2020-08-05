@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+
+body        {font-family: 'メイリオ',
+	        'Hiragino kaku Gothic Pro',
+			sans-serif;
+			background-color: #edede3;
+			background-image: url(backlogo.png)
+			margin: 0;}
+h1         {font-size:38px;
+			margin-top: 0;
+			margin-bottom: 0}
+
+
+p           {line-height: 1.5}
+		   
+header     {background-color: #ffffff;
+		   border-bottom: solid 1px #aaaaaa;
+		   margin-bottom: 30px;
+	       box-shadow: 0 1px 7px #aaaaaa;
+		   padding: 5px}
+
+
+
+
+header h1  {font-family: 'Chango',cursive;
+	       font-size: 24px;
+	       width: 900px; 
+	       margin-left: auto;
+		   margin-right: auto;
+		   color: #ff8800}
+	
+header h1 img {vertical-align: -10px;
+	           margin-right: 5px}
+
+article    {background-color: #ffffff;
+		    width: 900px;
+		    margin-left:  0;
+		    margin-right: 0;
+		    border: solid 1px #aaaaaa;
+		    padding: 30px;
+		    box-sizing: border-box;
+			margin-bottom: 15px;
+		    border-radius: 20px;
+		    overflow: hidden}
+
+
+footer     
+           {width: 900px;
+	       margin-left: auto;
+		   margin-right: auto;	  
+           clear: both}	      
+figure.photo-center {text-align: center;
+					 margin-top: 30px;
+					 margin-bottom: 30px;}
+
+figure.photo-left    {margin: 0;
+			margin-left: 20px; 		  
+			margin-right: 20px;   
+			        float: left;}
+					          
+figure.photo-left.img  {width: 550px}
+
+figure.photo-right     {margin: 0;
+					   margin-right: 20px;
+					   float: left;
+					   text-align: center} 
+figure.photo-right img {width: 550px;}
+
+h2                     {clear: both;
+					   border-bottom: solid 5px #c39f4a;
+     				   margin-top: 30px}
+a                      {color: #b77d3c}
+
+a:hover                 {color: #ff8800}              
+
+aside                   {border:solid 2px #d6c558;        	                border-radius: 5px;
+						padding: 10px;
+						background-color: #edede3;
+						margin-top: 40px;}
+aside h1	           {font-family: 'Chango'cursive;                     	font-size: 18px;
+						color: #c39f4a;
+						border-bottom: dotted 1px #c39f4a}			
+aside ul               {list-style-image: url(listmark.png)}
+
+aside a                {color: #000000;
+                       text-decoration: none}
+nav ul                 {}
+nav li                 {}
+nav li:first-child    {border-left: solid 1px #aaaaaa}
+nav                   {width:900px;
+	                   margin-left: auto;
+	                   margin-right: auto;
+	                   text-align: right;
+	                   margin-top: -27px;
+	                   margin-bottom: 10px}
+nav a                 {color: #000000;
+	                  text-decoration: none}
+
+
+
+
+

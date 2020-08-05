@@ -1,0 +1,81 @@
+
+
+<meta charset="UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=1"
+<link rel="stylesheet" href="style.css">
+
+body {
+    display: block;
+    margin: 8px;
+.flex_test-box {
+    background-color: #eee;
+    padding: 10px;
+    flex: left:
+    weight
+div {
+    display: block;
+}
+.flex_test-item:nth-child(1) {
+    background-color: #2196F3;
+}}
+.flex_test-item {
+    padding: 10px;
+    color: #fff;
+    margin: 10px;
+}
+div {
+    display: block;
+
+.flex_test-item:nth-child(2) {
+    background-color: #4CAF50;
+}
+
+.flex_test-item {
+    padding: 10px;
+    color: #fff;
+    margin: 10px;
+}
+div {
+    display: block;
+.flex_test-item:nth-child(3) {
+    background-color: #3F51B5;
+}
+.flex_test-item {
+    padding: 10px;
+    color: #fff;
+    margin: 10px;
+}
+
+div {
+    display: block;
+}
+
+div {element.style {
+}
+.flex_test-item:nth-child(4) {
+    background-color: #00BCD4;
+}
+
+.flex_test-item {
+    padding: 10px;
+    color: #fff;
+    margin: 10px;
+}
+div {
+    display: block;
+.flex_test-box {
+    background-color: #eee;
+    padding: 10px;
+}
+
+div {
+    display: block;
+
+    body {
+    display: block;
+    margin: 8px;
+
+    body {
+    display: block;
+    margin: 8px;
+}

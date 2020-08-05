@@ -1,0 +1,31 @@
+
+２４． メニュー以下リンク文字を追加する。
+ <h2>メニュー</h2>
+      <a href="index.html" target="_self">HOME</a>
+       <a href="enshoukai.html" target="_self">概　要<a> 
+       <a href="housin.html">園の方針</a> 
+       <a href="gyouji.html">年間行事</a> 
+       <a href="kosodate.html">子育て支援センター</a>
+       <a href="shorui.html">書類関係</a>
+
+
+２５．メニューの下に貼り付けます。
+
+ありがとうリンク
+      <p><a href="http://putiya.com/index.html" target="_blank">
+      <img src="img/banner_putiya.gif" ></a></p>
+  <p><a href="http://yamasoza.chips.jp/" target="_blank">  <img src="img/banner_yama.gif" ></a></p>
+      <p><a href="http://a-pure.littlestar.jp/" target="_blank">
+        <img src="img/banner_pure.gif" ></a></p>
+      <p><a href="http://tokataku.com/" target="_blank">
+      <img src="img/banner_tokataku.gif" ></a></p>
+      <p><a href="http://www.cty-net.ne.jp/~akirin/top.htm" target="blank">    <img src="img/banner_ikoi.gif"></a></p>
+      <p><a href="http://www.dff.jp/" target="_blank">    <img src="img/banner_dff.gif" ></a>
+      <p><a href="http://clickbokin.ekokoro.jp/" target="_blank">
+      <img src="img/88_88.jpg" alt="イーココロ！クリック募金" /></a></p>
+
+
+  <div id="footer">
+    Copyright (C) 2006 Yono hinadori nursery school All Rights Reserved.　design
+      by <a href="http://tempnate.com/">tempnate</a><br>このホームページ上で使用している写真・文章等の無断使用・転載は固くお断りします。
+  </div>

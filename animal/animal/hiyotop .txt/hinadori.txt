@@ -1,0 +1,35 @@
+ひなどり2章の完成見本
+	http://ytanaka.s601.xrea.com/hinadori/
+
+完成したらサーバーに転送してください
+	Xdomainは HTMLサーバー(オレンジのところ)に FTP設定後にアップ
+	別のサーバなので、Aptanaでは接続アイコンをもう一回作る必要がある
+
+
+"Z:\02_HTML\BookHtml5CSS3\chap1.pdf" 本のスキャンデータ
+"Z:\02_HTML\HTML_CSS3_TR_Sample\chapter1" 本の完成見本
+	と元データ
+
+本の制作は全部手打ちなので、便利なツールを先に入れて起きます
+ Emmet エメットというプラグインをAptanaに追加
+ moodle → Aptana3使い方まとめ →6 Emmetをインストールする。
+ 設定 → Emmet →変数 →lang を ja に 
+ localeを ja-JP 
+
+補足 link で <link rel="stylesheet" href="" />
+
+ よく使うショートコードは、テキストで保存して「覚書として」デスクトップにおいておこう
+
+ なるべく文字で表現しよう
+
+ エディタは WEbデザイン技能検定では Sublimetxtサブライムテキストが使えます
+ 今映っているのがそれです。
+
+ Aptanaで フォルダを作成 htdocs内に osteria この中にファイルを一つ
+  新規作成 inedx.html 
+    エメットで ! Ctrl+E
+
+ カーペンターズの下りは不要です書かなくていいです。
+ サーバーから本のPDFファイルを開くと文字列はコピペできます。
+
+ 

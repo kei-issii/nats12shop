@@ -1,0 +1,33 @@
+
+�Q�S�D ���j���[�ȉ������N������ǉ�����B
+ <h2>���j���[</h2>
+      <a href="index.html" target="_self">HOME</a>
+       <a href="enshoukai.html" target="_self">�T�@�v<a> 
+       <a href="housin.html">���̕��j</a> 
+       <a href="gyouji.html">�N�ԍs��</a> 
+       <a href="kosodate.html">�q��Ďx���Z���^�[</a>
+       <a href="shorui.html">���ފ֌W</a>
+
+
+�Q�T�D���j���[�̉��ɓ\��t���܂��B
+
+���肪�Ƃ������N
+      <p><a href="http://putiya.com/index.html" target="_blank">
+      <img src="img/banner_putiya.gif" ></a></p>
+  <p><a href="http://yamasoza.chips.jp/" target="_blank">  <img src="img/banner_yama.gif" ></a></p>
+      <p><a href="http://a-pure.littlestar.jp/" target="_blank">
+        <img src="img/banner_pure.gif" ></a></p>
+      <p><a href="http://tokataku.com/" target="_blank">
+      <img src="img/banner_tokataku.gif" ></a></p>
+      <p><a href="http://www.cty-net.ne.jp/~akirin/top.htm" target="blank">    <img src="img/banner_ikoi.gif"></a></p>
+      <p><a href="http://www.dff.jp/" target="_blank">    <img src="img/banner_dff.gif" ></a>
+      <p><a href="http://clickbokin.ekokoro.jp/" target="_blank">
+      <img src="img/88_88.jpg" alt="�C�[�R�R���I�N���b�N���" /></a></p>
+
+
+  <div id="footer">
+    Copyright (C) 2006 Yono hinadori nursery school All Rights Reserved.�@design
+      by <a href="http://tempnate.com/">tempnate</a><br>���̃z�[���y�[�W��Ŏg�p���Ă���ʐ^�E���͓��̖��f�g�p�E�]�ڂ͌ł����f�肵�܂��B
+  </div>
+  さいたま市認可保育園 ひよどり保育園のホームページです TEL048-123-4567,4568 リンク・お問い合わせ 
+ 

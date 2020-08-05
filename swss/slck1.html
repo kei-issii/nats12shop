@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" href="slick/slick-theme.css">
+<style>
+  .slick-prev:before,
+  .slick-next:before {  color: black; }
+  .slick-slide { margin: 0px 20px;}
+  #slick{height: 300px; width: 95%;margin: 0 auto;}
+  .slick-next:before {  content: "→";}
+</style>
+<div id="slick">
+  <div><img src="metaslider01.jpg" alt=""></div>
+  <div><img src="metaslider05.png" alt=""></div>
+  <div><img src="metaslider03.jpg" alt=""></div>
+  <div><img src="metaslider04.jpg" alt=""></div>
+</div>
+
+<script>
+  $('#slick').slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    fade: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: false,
+    accessibility: true
+  });
+  function shuffle_assoc($array) {
+        $keys = array_keys($array);
+
+        shuffle($keys);
+
+        foreach($keys as $key) {
+            $new[$key] = $array[$key];
+        }
+
+        $array = $new;
+
+        return true;
+    }
+?>
+</script>

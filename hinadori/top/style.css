@@ -1,0 +1,121 @@
+body {
+	font-family: Meiryo, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	margin: 0; padding: 0; font-size: 12px; color: #333;
+	background-image: url(img/back.gif); background-repeat: no-repeat;
+	background-position: center top; text-align: center;
+}
+a:link {
+	color: #69821b;
+	font-size: 12px;
+}
+a:hover {
+	color: #99ab4e;
+	font-size: 12px;
+}
+a:visited {
+	color: #69821b;
+	font-size: 12px;
+}
+p {
+	margin: 18px 0 18px;
+	line-height: 180%;
+	letter-spacing: 1px;
+}
+
+#container {
+	margin: 0 auto 0 auto;
+	padding: 0;
+	width: 800px;
+	background-color:
+	#ffffff;
+}
+#header { margin: 0;
+	width: 800px; height: 75px;
+	background: #ffffff;
+	border-bottom: solid 3px #69821b;
+	background-image: url(img/header.jpg);
+}
+#contents {
+		float:right;
+		margin: 0;
+		padding: 5px 8px 5px 0;
+		font-size: 12px;
+		line-height: 180%;
+		width: 590px;
+}
+
+#footer {
+	clear: both;
+	width: 800px; height: 45px;
+	text-align: center; font-size: 12px; color: #333333;
+	background-color: #cccccc; padding-top: 40px; padding-bottom: 12px;
+}
+.tLeft {
+	text-align: left;
+}
+
+#menu {
+	margin: 0 0 15px 0; padding: 0;
+	width: 170px; bottom: 0; text-align: left;
+	background-image: url(img/menu_back.gif);
+}
+
+#header h1 {
+	margin: 0;
+	padding: 2px 0 0 10px;
+	font-weight: normal; font-size: 11px;
+	text-align: left; color: #666666;
+}
+#contents h2 { 
+	padding: 9px 0 7px 14px;
+	color: #69821b;
+	margin: 0 0 4px 0;
+	line-height: 110%; font-size: 12px;
+	background-image: url(img/titlebar.gif);
+	background-repeat: no-repeat
+}
+
+#menu h2 {
+	margin: 0 0 2px 0;
+	padding: 7px 0 5px 12px;
+	line-height: 110%;
+	font-size: 12px; color: #fffffc;
+	background-image: url(img/sidebar.gif);
+}
+#menu_list {
+	margin: 0 0 15px 0;
+	padding: 5px 2px 0px 5px;
+	width: 160px;
+	text-align: left;
+	background-image: url(img/menu_back.gif);
+}
+
+/*CSS の２歩目*/
+.menu_list a{ 
+	color: #69821b;
+	width: 138px; display: block;
+	border-bottom: solid 1px #9f9f9f;
+	padding: 5px 4px 4px 20px;
+	font-size: 12px; line-height: 160%;
+	background-image:
+	url(hinadori_files/img/side_menu_bg.gif);
+	background-repeat: no-repeat;
+}
+
+.menu_list a:hover{
+		color: #99ab4e;
+		background-image:
+		url(../img/side_menu_bg_hover.gif);
+		background-repeat: no-repeat;
+}
+
+#table-right {
+	float: right;
+}
+
+img.photo{ 
+	float: left;
+	margin-right: 22px;
+	margin-bottom: 22px;
+}
+#contents h2{clear: both}

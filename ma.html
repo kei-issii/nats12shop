@@ -1,0 +1,1267 @@
+<!-- テスト
+    ドメイン<==> IP adoress
+IPがわからないとPCはアクセス出来ない
+アクセスできるようにせかい中のあちこちに
+DNSサーバーがあって､名前解決(IP)を教えてくれる
+
+yahoo.co.jp 182.22.59.229
+            0.0.0.0
+            255.255.255.255
+がわり当てられる  43億通りある
+プロトコル 通信の契約を定めたもの､番号や名前
+で区別される
+
+0と1しかわからないのでPCでその通信gアドのアプリで
+受け取る｡どの端末へいけばいいか､を決めている
+0101010101010101010101010101010101|01010101010
+01010101010101010  |  
+最初の番号0桁は何の通信かの種類を示す
+外から受け入れていく通信(http)
+httpがプロトコルポート番号は80番
+この番号の侵入許可をファイヤーウォール
+に与える = ポート開放
+
+main h2:after{ countent:'なり';}
+"みだし"なり
+main h2:after{}
+
+疑似要素 li:after{countent"なり";}
+お名前 ※ ← これを擬似クラスでだすと楽
+お名前 (必須)
+
+
+送信方法は🔽
+1.post
+2.get
+しかつかわない
+
+<label><input   ></input></label>
+
+WEB fontならインストールされなくても映るただし日本語は10mbくらいは無理 それでもやってるとこはあるが迷惑なのでやめましょう｡
+html 170ページ付近
+
+W3Cチート表
+
+moodlle トピック小テスト
+ cssセレクタの優先順位（強度について）
+ h１ﾀｲﾌﾟｾﾚｸﾀ（単独のﾀｸそのもの）
+ .photo  ｸﾗｽｾﾚｸﾀ
+ h1.photo ﾀｸﾞ指定ｾﾚｸﾀ
+ h1.photo 親子 (子孫)ｾﾚｸﾀ
+ #photo idｾﾚｸﾀ
+ input[name="tel"]属性ｾﾚｸﾀ
+
+
+ 書き位置の優先順位
+ ｲﾝﾗｲﾝ (ﾀｸﾞの中)
+
+ 行 (上<下)
+問答無用似最強になる!important
+color:red !important;
+
+
+親に当てたｽﾀｲﾙよりも自身に当たるｽﾀｲﾙが優先
+192.168.17.138/kei_ishii/
+
+javasprictはhiddleで実行できる
+javasprictはﾌﾞﾗｳｻﾞが実行する
+ｻｰﾊﾞｰを経由しなくても動くのでﾄﾞｷｭﾒﾝﾄにﾌｧｲﾙを送ってもいい
+renshu01,htmlをっｻｰﾊﾞｰで開けなかった
+保存ﾎﾞﾀﾝ 
+ｺﾝﾄﾛｰﾙS+autosave
+
+absoluteの top :0
+           left:0
+はどこか?
+   親ﾀｸﾞ次第
+   position:relativeﾌﾟﾛﾊﾟﾃｨを
+   持った親の左上が基点
+   ついてなければbodyの左上
+
+
+   jsfiddle
+
+hiddole
+absoluteにすると幅がなくなる
+display:inline-blockと同じ
+
+
+ﾌﾚｯｸｽ
+<style type="text/css" scoped>
+ul {
+    display: -webkit-flex;            webkit このﾌ部分をﾍﾞﾝﾀﾞｰﾌﾟﾚﾌｨｯｸｽという
+    display: flex;                    webkitはchrome系のﾌﾞﾗｳｻﾞのことを
+                                      -me- は -op-はｵﾍﾟﾗ -mz- はFireFox
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 200px;
+}　  
+
+7/9
+解決してないもんだいﾌﾛｰﾃｨﾝｸﾞ
+ゆっくりｶｰｿﾙを移動するやり方
+練習問題のボﾀﾞﾝをつけて向きとかを変える
+jquery
+abcdでjqueryの編集のところできてない
+
+
+
+http:// → https:// ☓     スキームの違いでファイルを読み込めない
+非セキュア → セキュア
+https = SSL 通信 サーバーとクライアントの間に独自のキーで(暗号複合)する仕組み
+キーの受け渡しにわ→[公開鍵暗号方式]を使っている
+
+
+
+
+javasprictのデバック方法
+1  コンソールを見る
+解決すべきエラーがあれば先に対処
+  syntax eroor Undifrrend NotFound
+
+  2 イベントが発火しているのか
+ 対象となる要素を正しく指定できてないかも
+
+ 3 console.log(schlool);
+ でちゃんとできているか確認
+ 最後も行まで確認
+
+1 [document] はネイティブな定数なので"は
+不要 
+
+2 書き方のパターンは覚えよう
+
+3 メソッドドットでつなげる
+
+4 メソッド名( 引数 )↓この場合引数は値じゃなくて処理=
+関数
+
+
+$(document).ready(function(){
+    取得したい要素がブラウザに読み込んでな
+    いとjavaspictが読み込まれない
+
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+
+5 いちいち名前をつけなくても無目関数というも
+のが用意されている
+
+名前付き関数は実行されない
+名前つけない関数は →即時実行される
+
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+
+jqueryのチュートリアル
+javasprictの文字数のカウント
+jqueryのフォーム操作
+
+
+
+$('要素').txt('適当な警告') ← 文字の埋め込み    
+
+
+$('name'="tel")chanji fanction(){
+    if($this),val().lenght > 11
+    $(this).next().text("行数が多いようです");
+}
+
+$('[name="tel"]').keydownU(function(){
+        if($(this).val().length < 12{
+        $ if($(this).next().next
+        console.log($(this)
+    }
+        $()
+}
+
+//Ctrl+shift+pで比較対象のﾌｧｲﾙ
+conpare active faile with
+
+$(1)ﾙｰﾌﾟ要素) each()function(2,3){
+    やりたいこと;
+}
+1  ﾙｰﾌﾟ要素 ｸﾗｽ要素など複数あるもの
+2 ﾙｰﾌﾟｶｳﾝﾀｰ 0-要素の数分を取得する
+3 個別要素1回目なら1つの要素のみ取得
+
+
+each() の基本構文
+1
+2
+3
+4
+5
+$( セレクタ ).each(function(インデックス, エレメント) {
+ 
+  ループ処理
+ 
+});
+  // each()に引数を指定してループ処理
+  $('li').each(function(i, val) {
+
+
+
+
+
+
+$(function() {
+  var Is = (.lev storong)
+  var ex = 1000;
+  var am = {top:0. opacty: 1 }
+  var d1 = 500;
+ $(".lev strong").each(function(i,e){     // 1には0から順番に要素の番号が入る
+ 
+    $(e).delay(500+2000*1).animate(am,ex);   
+ });
+});
+
+
+javasprict
+
+ﾗｲﾌﾞﾗﾘを使ったｺﾝﾃﾝﾂ
+
+ｽﾗｲﾀﾞｰ(画像が入れ替わるやつ)
+ 
+ﾓｰﾀﾞﾙｳｨﾝﾄﾞｳ
+
+ﾌｫｰﾑﾊﾞﾘﾃﾞｰｼｮﾝ(妥当な値かﾁｪｯｸ)
+
+住所自動入力
+
+自動ｶﾅ入力
+
+ﾄﾞﾘﾌﾄ
+↓
+使い方をおぼえればいい
+ほとんどが,javasprictの配列をつかって設定内容を書いている
+連想配列のことをjsではｵﾌﾞｼﾞｪｸﾄという
+;
+
+slick
+
+swiper
+画像の全面に適当な文字をにゅうりょくして一緒にうごくように
+
+
+
+わからないこと
+drift
+slickhtml
+fadehtml
+
+
+<script>
+$(#calender).datetimepicker(}
+timepicker:!0
+datepicker:0
+week:
+defaulttime:
+defaultdate:
+lang:'ja'
+mindate:
+maxdate:
+allowtimes:
+</script>
+
+fefult    :0
+weeks     :0
+defurttime:0
+cssがないからわからない
+
+
+AjaxZip3 郵便番号入力ﾗｲﾌﾞﾗﾘ
+autokana-master ｶﾅ自動入力ﾗｲﾌﾞﾗﾘやってない
+
+jqueryのAjaxﾒｿｯﾄﾞ
+$.ajax()
+
+
+
+
+
+
+jqueryからｻｰﾊﾞｰのﾌｧｲﾙを呼び出す
+↓
+●●● php echo "文字列の戻り値"
+↓
+戻り値を受け取る
+↓
+phpじゃないとできないことをjquryでやりたい場合
+ｻｰﾊﾞｰ側ｽｸﾘﾌﾟﾄ
+ｸﾗｲｱﾝﾄ側ｽﾌﾟﾘｸﾄ
+ どっちでなにができる,できないを把握するところから
+    phpは受け取り側→htmからのデータを受信して実効する
+
+7/19
+ｱｶｳﾝﾄ名の前にﾃｰﾌﾞﾙ名をつける
+
+powから(ﾊﾟｿｺﾝのｽﾀｰﾄﾎﾞﾀﾝから)
+↓
+tanaka_sumple
+↓
+DBを作るとき以外は rootでﾛｸﾞｲﾝしない
+mysql ﾃﾞｰﾀﾍﾞｰｽのｱﾌﾟﾘｹｰｼｮﾝ
+
+Linuxｻｰﾊﾞｰのﾛｸﾞｲﾝ
+↓
+ ssh root@192.168.17.138   入力
+↓
+mysql -uroot -p ｺﾋﾟﾍﾟ
+Wert3333- ← 入力
+
+create user kei_ishii@localhost identified by 'Wert3333-';
+
+mysqlをﾛｸﾞｱｳﾄする
+
+
+my sqlにﾛｸﾞｲﾝ
+
+からのdbを作る
+
+商品台帳 商品ID 商品名 単価とか付随するﾃﾞｰﾀ
+得意先台  得意先ID 社名 住所 連先 担当者
+請求先表 請求ID (連番) 発行日 得意先ID (外部ｷｰ)
+請求先表(主キー)請求ID (外部キー)商品ID 数量
+
+請求先を得意先IDを絞り込む請求先ID詳細名を参照し
+て商品IDで商品単価を引き当てて数料を掛け算して統計すれば得意先の統計が求められる
+
+shopが追加できない
+
+
+7/20
+単にSQLと書かれている場合と
+SQL文と書いている場合はほとんど同じ
+
+
+RDBSはリレーションデータヴェース
+商品(主キー) → 商品(外部キー) 同じ意味
+
+データベーステーブル
+必ず1行(一人)が1データに
+
+
+任意のキーを得定できる → 主キーがある
+マスターテーブル(台帳)データテーブルがある
+
+フィールド名(項目)名がある→会社のID
+                         ↓IDは一様文字列にできる123d
+
+フィールドには数値がある
+
+文字列型
+最大文字数
+
+数値型
+桁数,少数
+
+日付型
+年月型,時分秒
+
+SQLコマンド入力
+ALTER TABLE shosai ADD
+PRIMARY KEY (denpyo_id,shohin_id)
+
+SQL文の文字の大きさを2倍にする          INDEXをつけるのは,そのプロイール
+                                      ドが外部キーになているのでまた,検索でつかうことができる
+                                      また検索で使うことがあるため,INDEXは重複を許容するキー
+                                      UNIQUEは重複を許容しないキー
+pre.sqlarea{font-size: 2em;}
+バックコート 'この区別がつく
+
+SQL文の命令句は小文字でいい
+
+テーブルつくってない
+テーブルの変更のところからわからない
+
+
+
+INSETする順番 
+マスタが先 → データは後
+とt杭先 →  伝票
+商品テーブル → 詳細テーブル
+
+台帳にない商品を売上にきろくしないため
+このためオプrションに
+
+
+
+
+contrl + enter実行                                            header→nav →コンテンツ
+※WHERE句を書かなかった場合には全てのデータを
+対象になるので注意!
+CTRL+Zにはもどらない。バックアップ7から復元する以外
+にはもとに戻す方法はない。
+
+10_kentei
+ttemon 問題の7概要
+base html   これが元のfile      テストするところ
+site 問題の元
+cssの7file編集  imageのstyle.css編集7
+tenmon → complete → 答え
+
+ 問題1 90分
+
+  
+ 
+ 
+ 
+ 追加
+SELECT * FROM `shohin`; 
+
+select shohin_mei , tanka 
+from shohin;
+
+select shohin_mei , tanka
+from shohin
+where tanka >= 500;
+
+--練習4
+SELECT * FROM `denpyo` WHERE `tokui_id` = '4' 
+
+--練習5
+SELECT * FROM `denpyo` WHERE `tokui_id` = '4' LIMIT 3
+
+--練習6
+SELECT * FROM `denpyo` WHERE `tokui_id` = '4' 
+ORDER BY denpyo_id DESC LIMIT 3
+
+
+-- "Z:\05_DB\伝票データinsert.sql"
+-- 作ったテーブルにデータを挿入するSQL文
+
+INSERT INTO sample.`denpyo` (`denpyo_id`, `tokui_id`, `juchu_bi`) 
+values
+(20,	6,	'2004-12-02'),
+(21,	1,	'2019-04-18'),
+(22,	1,	'2019-05-01'),
+(23,	2,	'2019-05-02'),
+(24,	4,	'2019-01-22'),
+(25,	4,	'2019-01-25'),
+(26,	5,	'2019-01-15'),
+(27,	3,	'2019-01-13'),
+(28,	1,	'2019-01-22'),
+(29,	2,	'2019-01-14'),
+(30,	4,	'2019-02-22'),
+(31,	4,	'2019-02-25'),
+(32,	5,	'2019-02-15'),
+(33,	3,	'2019-02-13'),
+(34,	1,	'2019-02-22'),
+(35,	2,	'2019-03-14'),
+(36,	4,	'2019-02-22'),
+(37,	4,	'2019-02-25'),
+(38,	5,	'2019-03-15'),
+(39,	3,	'2019-03-13'),
+(40,	2,	'2019-03-22'),
+(41,	2,	'2019-03-14'),
+(42,	4,	'2019-02-22'),
+(43,	4,	'2019-04-25'),
+(44,	5,	'2019-04-15'),
+(45,	3,	'2019-04-13');
+
+
+
+
+INSERT INTO `shohin` (`shohin_id`, `shohin_mei`, `tanka`) VALUES
+(1000,	'ノート',	200),
+(1001,	'鉛筆',	50),
+(1002,	'ボールペン',	100),
+(1003,	'はさみ',	300),
+(1004,	'カッター',	500),
+(1005,	'半紙',	700),
+(1006,	'分度器',	230),
+(1007,	'コンパス',	800),
+(1008,	'フリクション',	400),
+(1009,	'コピー用紙',	1000),
+(1010,	'筆',	1200),
+(1011,	'硯',	2000),
+(1012,	'墨汁',	500),
+(1013,	'シャープペン',	900);
+
+
+
+
+INSERT INTO `shosai` (`denpyo_id`, `shohin_id`, `juchu_bi`) VALUES(6,`2004-12-02`);
+(20,	1000,	20),
+(20,	1001,	10),
+(20,	1003,	5),
+(20,	1007,	12),
+(20,	1011,	12),
+(21,	1001,	1),
+(22,	1003,	3),
+(22,	1005,	2),
+(23,	1002,	1),
+(23,	1007,	3),
+(23,	1009,	3),
+(24,	1012,	2),
+(24,	1013,	2),
+(25,	1002,	3),
+(26,	1002,	2),
+(26,	1008,	12),
+(27,	1007,	3),
+(27,	1009,	13),  
+(28,	1012,	2),    
+(28,	1013,	2),
+(29,	1004,	5),
+(31,	1010,	3),
+(32,	1001,	6),
+(32,	1005,	12),
+(32,	1009,	12),
+(33,	1007,	13),
+(33,	1010,	1),
+(34,	1011,	2),
+(34,	1012,	20),
+(35,	1002,	8),
+(36,	1008,	12),
+(37,	1007,	9),
+(37,	1012,	13),
+(37,	1013,	14),
+(38,	1007,	6),
+(39,	1012,	9),
+(40,	1002,	3),
+(41,	1008,	12),
+(42,	1004,	15),
+(42,	1005,	5),
+(43,	1007,	13),
+(44,	1012,	2),
+(45,	1002,	3),
+(45,	1006,	12),
+(45,	1012,	13);
+(46,    1013,   16);
+
+INSERT INTO `tokui` (`tokui_id`, `tokui_mei`, `jusho`) VALUES
+(1,	'田中電機工事',	'埼玉市豊岩石田坂字九十田９'),
+(2,	'株式会社トップモーション',	'世田谷区等々力1-11'),
+(3,	'東京健康スポーツ大学',	'新宿区高田馬場3-9'),
+(4,	'株式会社ハウステック',	'仙台市泉区上谷刈１丁目５'),
+(5,	'富士産業株式会社',	'高崎市旭北栄町１－４'),
+(6,	'N文房具店',	'東京都千代田区神田');
+
+INSERT INTO den             → で
+
+
+できない
+
+練習問題設定6
+文字の高さ
+
+----------------------------------------------------------------------
+･帳票作成
+たんじかんでまとめられる
+-------------------------------------------------------------------------
+･営業分析
+儲かっているのかしりたい時
+------------------------------------------------------------------------
+
+納品書の上の方を見る
+  得意先,日付,伝票番号とか(単一行)
+   住所,得意先先ｺｰﾄﾞ,受注年月日
+
+詳細情報
+単価 ,伝票,数量(複数行)
+※単一行の表と複数の表は一つにだせません
+SQL文の2回発行して,PHPのｺｰﾄﾞのなかで 一つに帳票する
+------------------------------------------------------------------------------------
+7/27
+伝票とか結合
+--------
+ left join →大文字
+ (denpyo)
+
+ ﾃｰﾌﾞﾙの結合
+ 伝票ﾃｰﾌﾞﾙが←,得意先ﾃｰﾌﾞﾙが→のｲﾒｰｼﾞ
+
+SELECCT * FROM denpyo
+
+
+\\192.168.17.104
+ﾕｰｻﾞｰ smbuser
+ﾊﾟｽﾜｰﾄﾞ  wert3333
+05_DB
+
+
+
+
+ON denpyo_id = denpyo_id ;
+admminerのSQl文の中に書いて実行
+↓
+on句の列 ''tokui_id'があいまいですと表示
+SELECT * FROM denpyo
+LEFT JOIN tokui
+ON tokui_id = tokui_id ;
+------------------------------------------------------
+SELECT * FROM denpyo
+LEFT JOIN tokui
+USING(tokui_id)
+-------------------------------↓
+SELECT *---- すべてのﾌｨｰﾙﾄﾞ
+FROM denpyo LEFT JOIN tokui
+-----伝票の全てに得意表を結合する
+USING (tokui_id) ---名前が同じ場合使える
+WHERE denpyo_id = 20;
+-----これが納品書の上半分になる
+
+----------------------------
+tokui_id	denpyo_id	
+伝票ﾃｰﾌﾞﾙが左  得意先ﾃｰﾌﾞﾙが右   
+
+
+ --------------------------------
+↓
+これを参考に納品証の上半分を作ってください
+-------------------------------------
+(答え)
+
+
+    SELECT shohin_id ,shohin_mei,tanaka,suryo,
+    tanaka * suryo
+    FROM shosai
+    LefT JOIN shohin
+    USING (shohin_id) 
+    WHERE denpyo_id = 20;
+    --------------------↓
+    SELECT shohin_id,shohin_mei,tanka,suryo
+    , tanka * suryo AS  --小計
+    FROM shosai
+    LEFT JOIN shohin
+    USING ( shohin_id ) 
+    WHERE denpyo_id = 20
+-- ASは表や行の別名を設定できる命令句ちなみにASは省略できます
+単価
+
+SELECT shohin_id,shohin_mei,tanka,suryo
+,tanka * suryo AS  
+FROM shosai
+LEFT JOIN shohin
+USING ( shohin_id ) 
+WHERE denpyo_id = 20
+------------------------------------------------------------------
+縦方向の合計にはSUM()関数が使えます
+1行目の書き換えて実行
+---------------------------------------------------------------------
+SELECT denpyo_id, SUM(tanka * suryo) 合計
+
+月ごとの売上を集計する
+↓
+1 日付ﾃﾞｰﾀはdenpyo表にあるので,更に結合
+       JOINが3つ
+2 日付を月でまとめる
+DATE_FORMAT(行名,'日付書式')
+
+3 まとめた月でｸﾞﾙｰﾌﾟ化が必要
+    GROUP BY
+
+    (答え)
+-----------------------------------------------------------------------------------
+SELECT DATE_FORMAT(juchu_bi,'%Y%m')月
+, SUM(tanka * suryo) 合計
+FROM  shosai
+LEFT JOIN shohin USING ( shohin_id ) 
+LEFT JOIN denpyo USING ( denpyo_id )
+GROUP BY DATE_FORMAT(juchu_bi,'%Y%m')
+-----------------------------------------------------------------------------------
+練習9特定の商品で(例) ﾉｰﾄ 鉛筆
+で表を出してみる
+
+SELECT shohin_mei,  SUM(tanka * suryo) 合計
+FROM shosai
+LEFT JOIN shohin USING ( shohin_id ) 
+WHERE shohin.shohin_id = 1000
+GROUP BY shohin_mei
+ORDER BY   並べ替え
+LIMIT      行の並べ替え0-5行が最後
+---------------------------------------↓
+命令句には順番が決められている,辻褄の合う順番で書かなければならない 
+---------------------------------php  p174
+本では→WindowsにXamppとゆうアプリにて行っているが
+授業ではLinuxにmysqlとApavheを入れてAdminerで操作
+-----------------------------------------------------------------------
+PDO ← PDOクラス → Mysql 
+PDOはphpに付属しているライブラリ
+PDOはオブジェクト初めて書く記号がいくつかでてくる
+      クラス名 -> 変数名(または関数名)
+      アロー演算子(オブジェクト演算子)
+      クラス名 :: 変数名(または関数名)
+      Wコロン(スコープ演算子)
+------------------------
+
+196Pこのfileをインクルードする方法で行!
+<?php require '../header.php'; ?>
+<?php
+$pdo=new PDO('mysql:host=localhost;dbname=kei_shop;charset=utf8', 
+	'kei_ishii', 'Wert3333-');
+$pdo->setAttribute(PDO::ATTR_ERRMODE,
+PDO::ERRMODE_EXCEPTION);
+?>
+<?php require '../footer.php'; ?>
+-------------------------------------------
+[all.php]
+-----------------------------------------
+<?php
+  require_once'all.php';
+//他のfileがこのfileを読み込んでみたら読み込まない
+requireは使わずに常にrequire_once
+---------------------------------------------
+phpがうまく表示されない
+----------------------------------------------------------------------
+7･29
+
+日付期間指定
+特定月の売上回数(伝票の枚数=行の数
+特定月に販売した得意先一覧(重複しない)
+
+↓
+
+2019-1-1 ~ 2019-1-31
+------------------↓
+                  なら
+SELECT +
+FORM `denpyo`
+WHERE juchu_bi  BETWEEN ('2019-1-1')
+AND '2019-1-31'
+----------------
+こう書くのと一緒
+
+WHERE juchu_bi >= '2019-1-1'
+AND juchu_bi <= 2019-1-31 
+
+-----------------------------------------
+特定月の売上回数(伝票の枚数=行の数
+特定月に販売した得意先一覧(重複しない)
+※バージョンが古いとなる
+-------------------------------------- 
+
+
+count()関数を使う
+ SELECT count(*) --   
+----------------------------
+
+ エラー(例)
+count()関数を使う
+ SELECT count(*)
+一行にしかならに結果と複数行になる結果一覧取り出そうとしているので一緒
+ 特定月に販売した得意先一覧(重複しない)
+--------------------------------------------------------------------
+SELECT tokui_mei FROM denpyo     
+LEFT JOIN tokui
+USING(tokui_id)
+WHERE juchu_bi  BETWEEN ('2019-1-1')
+AND '2019-1-31'
+---------
+SELECT DISTINCT tokui_mei FROM denpyo                                      
+LEFT JOIN tokui
+USING (tokui_id)
+WHERE juchu_bi  BETWEEN '2019-1-1'
+AND '2019-1-31'                      --------得意先一覧 
+
+
+SELECT shohin_mei,  SUM(tanka * suryo) 合計
+FROM shosai
+LEFT JOIN shohin USING ( shohin_id ) 
+WHERE shohin.shohin_id = 1000
+GROUP BY shohin_mei
+ORDER BY   並べ替え
+LIMIT 
+ ----------------------------------------------------
+SELECT DISTINCT shohin_mei FROM denpyo    
+
+?
+()
+SELECT denpyo_id shohin_mei FROM denpyo
+LEFT JOIN shosai
+  USING (denpyo_id)
+LEFT JOIN shohin
+  USING (shohin_id)
+WHERE juchu_bi  BETWEEN '2019-2-1'
+AND '2019-2-28'
+
+商品名が NULL とでたらデータが整合性が取れていない
+SELECT denpyo_id shohin_mei FROM denpyo
+ﾃﾞｰﾀの不整合がででないため成約を追加
+
+30の詳細ない→ '参照整合性'を追加
+ﾃｰﾌﾞﾙ 構造で外部ｷｰを追加
+------------------------------------------------------------------------
+↓
+売れた数多い順に商品名と売上点数を表示してください
+
+
+SELECT denpyo_id shohin_mei,  SUM(tanka * suryo) 合計
+FROM shosai
+LEFT JOIN shohin USING ( shohin_id ) 
+USING (denpyo_id)
+LEFT JOIN shohin
+  USING (shohin_id)
+WHERE shohin.shohin_id = 1000
+GROUP BY shohin_mei
+
+(mati)
+
+
+SELECT shohin_mei ,sum(suryo) as 合計
+FROM shosai
+LEFT JOIN shohin using (shohin_id) 
+GROUP BY shohin_id
+ORDER BY gokei DESC
+------------------------
+                        ﾄﾗﾝｻﾞｸｼｮﾝとゆうきのうがある
+                        (例)伝票番号30のﾃﾞｰﾀの詳細がない 
+                        1 伝票表に一見登録(得意先,日付)
+                          新規で伝票IDが発行される 例 49
+                          49がもう一回発行されたら違う49が増える
+                        のを防ぐ
+                        
+                           2 詳細表に商品登録(商品ID,伝票ID,数量)
+                        48には詳細の登録がなくなる
+                        
+                        (ﾄﾗﾝｻﾞｸｼｮﾝ)
+                        start transaction;    -----------書;理の追跡を開始
+                        insert into shosai values{null,6,
+                            2020-07-24');
+                            insert into shosai values(
+                            last_insert_id(),1005,2);
+                            commit;
+                            
+ﾛｰﾙﾊﾞｯｸ
+ﾄﾗﾝｻﾞｸｼｮﾝ開始からｺﾐｯﾄまでの間に,何か起きた場合ははじめからなにもなかったことにする
+
+ﾛｰﾙﾌｫﾜｰﾄﾞ
+ﾊﾞｯｸｱｯﾌﾟから復元更新状態をみて最新と同じ状態にする
+
+
+
+まとめ  
+ moddle ﾃﾞｰﾀﾍﾞｰｽ          
+ mysql 入門ﾄﾗﾝｻﾞｸｼｮﾝ↓
+---------------------------------------------------------------------------
+<?php 練習問題
+
+// 1次元配列
+$stmt = [1000,	'ノート',	200];
+  echo $stmt[0] , $stmt[1] ,$stmt[2] ;
+
+// 2次元配列
+$stmt = [ 
+  [1000,	'ノート',	200],  //行
+  [1001,	'鉛筆',	50],
+  [1002,	'ボールペン',	100]
+];
+  // 上と同じように ノートの一行をechoしてください｡
+  
+  foreach (stmt as $value) {
+  foreach ($value as $val) {
+  echo   $val ;
+}
+  exit; 中断
+  
+  echo $stmt[0][0], $stmt[0][1] ,$stmt[0][2] , '<br>';
+  echo $stmt[1][0], $stmt[1][1] ,$stmt[1][2] , '<br>';
+  echo $stmt[2];
+  
+<p>DBから取得したﾃﾞｰﾀ次元破裂と同じ行番号と列番号の指定が必要
+        foreach1は2次元の表を回して1行を取り出せる
+        foreach1～は2次の表を2次元配列に変えることができる
+        ﾃｰﾌﾞﾙから取得したﾃﾞｰﾀはたとえ1行でも2次元配列になる
+
+--------        ---------------------------
+        <?php require '../header.php'; ?>
+<table>
+<tr><th>商品番号</th><th>商品名</th><th>価格</th></tr>
+<?php
+$pdo=new PDO('mysql:host=localhost;dbname=shop;charset=utf8', 
+	'staff', 'password');
+foreach ($pdo->query('select * from product') as $row) {
+	echo '<tr>';
+	echo '<td>', $row['id'], '</td>';
+	echo '<td>', $row['name'], '</td>';
+	echo '<td>', $row['price'], '</td>';
+	echo '</tr>';
+	echo "\n";
+	
+}
+?>
+</table>
+<?php require '../footer.php'; ?>
+---------------------------------------------
+
+
+<table>
+foreach ($pdo->query('select * from product') as $row) {
+            <td><?=$row['id']?></td>
+			<td><?=$row['name']?></td>
+			<td><?=$row['price']?></td>
+	 </tr>
+</table>
+
+-----------------------------
+(答) all4 PHP203   の答え
+<?php require '../header.php'; ?>
+<table>
+<tr><th>商品番号</th><th>商品名</th><th>価格</th></tr>
+<?php
+require_once 'connect.php';
+foreach ($pdo->query('select * from product') as $row) {
+?>
+		<tr>
+			<td><?=$row['id']?></td>
+			<td><?=$row['name']?></td>
+			<td><?=$row['price']?></td>
+		</tr>
+<?php } ?>
+</table>
+<?php require '../footer.php'; ?>
+-------------------------------------------------------
+<script>
+    document.write(document)
+    location.href = 'https://yahoo.co.jp'
+</script>ﾋﾟｰﾅｯﾂ                                                       ↓
+                                                            SELECT *
+                                                                FROM `product`
+                                                                WHERE  id = 11;
+                                                   0             INSERT INTO
+                                                                'customer' 
+                                                                -sqlｲﾝｼﾞｪｸｼｮﾝ                                                                     
+------------------------------------------------------------------------------------------------
+ htmlspecialchars()関数でﾀｸﾞ特殊文字に変える
+
+
+ openなｺｰﾄﾞなので対策は必ずすること
+ form action="https//attac.com" input
+ submit
+
+------------------------------------------------------
+https//attac.comにもじを送りつけることができる
+受け取った側でどうするかはそちらの問題
+------------------------------------------------------------
+<?php require '../header.php'; ?>
+商品名を入力してください。
+<form action="search-output.php" method="get"-----------getに変える
+<input type="text" name="keyword">
+<input type="submit" value="検索">
+</form>
+<?php require '../footer.php'; ?>
+------------------------------------
+<script>alert("hello");</script> 0
+↓
+このﾍﾟｰｼﾞにはこれ以上ﾀﾞｲｱﾎﾞｯｸｽが表示されません
+
+
+update product set name='高級松の実', price=900 where id=1; 更新
+update product set name='松の実', price=700 where id=1; 更新戻る
+価格だけも変更することできる
+
+  P256
+  P187  削除したでーたを戻す
+  ﾃﾞｰﾀﾍﾞｰｽPHP 
+  P190
+insert-input php2
+を開いて自分のにないものをｺﾋﾟﾍﾟ
+------------------------------------------------------------------------
+CSRF こう書いた場合は同じｻｰﾊﾞｰのoutput.phpに表示される
+<from action="output.php" method="post">
+
+この場合はどのｻｰﾊﾞｰからでもあなたのｻｰﾊﾞｰにﾄﾞﾒｲﾝされる.
+<from action=https://your.domain.com/
+"output.php" method="post">
+
+送信内容は商品の追加なら,第三者によって商品が追加される
+のでCSRF対策が必要
+
+-------------------------------------------------------------------
+login 
+ﾃｰﾌﾞﾙ 
+select * from customer where login=ishii_shop and Wert3333-
+
+
+insert into customer values(null,'熊木 和夫',
+     '東京都新宿区西新宿2-8-1','kumaki','q');
+----------------------------------------------------------------
+
+drop database if exists shop;
+create database shop default character set utf8 collate utf8_general_ci;
+grant all on ishii_shop.* to 'kei_ishii'@'localhost' identified by 'Wert3333-';
+use shop;
+
+create table product (
+	id int auto_increment primary key, 
+	name varchar(200) not null, 
+	price int not null
+);
+drop table if exists customer;
+create table customer(
+	id int auto_increment primary key, 
+	name varchar(100) not null, 
+	address varchar(200) not null, 
+	login varchar(100) not null unique, 
+	password varchar(100) not null emaile
+);
+
+create table purchase (
+	id int not null primary key, 
+	customer_id int not null, 
+	foreign key(customer_id) references customer(id)
+);
+
+create table purchase_detail (
+	purchase_id int not null, 
+	product_id int not null, 
+	count int not null, 
+	primary key(purchase_id, product_id), 
+	foreign key(purchase_id) references purchase(id), 
+	foreign key(product_id) references product(id)
+);
+
+create table favorite (
+	customer_id int not null, 
+	product_id int not null, 
+	primary key(customer_id, product_id), 
+	foreign key(customer_id) references customer(id), 
+	foreign key(product_id) references product(id)
+);
+
+insert into product values(null, '松の実', 700);
+insert into product values(null, 'くるみ', 270);
+insert into product values(null, 'ひまわりの種', 210);
+insert into product values(null, 'アーモンド', 220);
+insert into product values(null, 'カシューナッツ', 250);
+insert into product values(null, 'ジャイアントコーン', 180);
+insert into product values(null, 'ピスタチオ', 310);
+insert into product values(null, 'マカダミアナッツ', 600);
+insert into product values(null, 'かぼちゃの種', 180);
+insert into product values(null, 'ピーナッツ', 150);
+insert into product values(null, 'クコの実', 400);
+
+insert into customer values(null, '熊木 和夫', '東京都新宿区西新宿2-8-1', 'kumaki', 'BearTree1');
+insert into customer values(null, '鳥居 健二', '神奈川県横浜市中区日本大通1', 'torii', 'BirdStay2');
+insert into customer values(null, '鷺沼 美子', '大阪府大阪市中央区大手前2', 'saginuma', 'EgretPond3');
+insert into customer values(null, '鷲尾 史郎', '愛知県名古屋市中区三の丸3-1-2', 'washio', 'EagleTail4');
+insert into customer values(null, '牛島 大悟', '埼玉県さいたま市浦和区高砂3-15-1', 'ushijima', 'CowIsland5');
+insert into customer values(null, '相馬 助六', '千葉県地足中央区市場町1-1', 'souma', 'PhaseHorse6');
+insert into customer values(null, '猿飛 菜々子', '兵庫県神戸市中央区下山手通5-10-1', 'sarutobi', 'MonkeyFly7');
+insert into customer values(null, '犬山 陣八', '北海道札幌市中央区北3西6', 'inuyama', 'DogMountain8');
+insert into customer values(null, '猪口 一休', '福岡県福岡市博多区東公園7-7', 'inokuchi', 'BoarMouse9',
+'emaile');
+
+
+0
+$_SESSION['customer']=[
+ 'id'=>$row['id'],'id'=>$row['id'],
+ 'address'=>$row['address'],'login'=>$row['login'],
+ 'pasword'=>$row['pasword'];
+----------------------------------------------------------------
+<?php
+/* バインドされた PHP 変数によってプリペアドステートメントを実行する */
+$calories = 150 ------  ﾕｰｻﾞｰが入力した値
+$colour = 'red'; OR'a'='a
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < ? AND colour = ?');
+$sth->bindParam(1, $calories, PDO::PARAM_INT);  -----文字列はint
+$sth->bindParam(2, $colour, PDO::PARAM_STR, 12);-----色はSTR  
+$sth->execute();
+?>
+----------------------------
+ﾊﾞｲﾝﾄﾞ機構
+(bindparam)
+sqlの実行と変数の代入を同時に進まない
+sqlの実行後に変数だけを後追いで入れてやる機能
+
+ﾌﾟﾘﾍﾟｱﾄﾞｽﾃｰﾄﾒﾝﾄ
+
+sqlを実行後に構文のﾁｪｯｸを行う
+SQL文のDBのｱﾀｯｸを防御する
+ if (iseet(&_SESSION['customer'])) {
+---------------------------------
+ﾊｯｼｭ化
+-------------------------------------------
+ 1あなたの答えは部分的に正解です。
+あなたは 1 件を正しく選択しました。
+正解: 重複してはならないフィールドに付ける → unique, 重複を許容し,絞り込みに使うフィールドにつける → index,
+特定の1レコード(行)を示す重複しない値 主キー → primary key
+2あなたの答えは部分的に正解です。
+あなたは 1 件を正しく選択しました。
+正解は次のとおりです: WHERE句でよく使われる列, ORDER BY句でよく使われる列, JOINの結合条件によく使われる列
+
+-------------------------------------------
+このテーブルを正規化しなさい
+[顧客] テーブル
+
+　顧客ID	顧客名	　[Eメール]	[郵便番号]　	　[住所]
+[ 予約]テーブル
+　予約ID	　[予約日時]	　[人数]	　顧客ID	コースID	  [備考]
+[コース]テーブル
+　コースID	  [コース名]　	　[値段]
+
+-------------------------------------------
+`yoyakuID`  回答
+int
+
+
+
+  NOT NULL AUTO_INCREMENT,
+
+`yoyakuji`   回答
+detatime
+
+
+
+`ninzu` 	 回答
+varchar
+
+
+
+`courceID`  回答
+int
+
+
+
+
+`kokyakuID`  回答
+int
+
+
+
+
+`goyobo` 	   回答
+varchar
+-------------------------------------------
+バッククォートでフィールド名を囲むことによって回答
+SELECT * FROM table
+
+
+予約語を使ってしまった場合のエラーを回避できる
+-------------------------------------------
+SELECT`group`
+FROM order 構文ｴﾗｰ                                  ｢chumon｣
+GROUP BY 
+ORDER BY
+
+何百もある予約語を自然に回避する個はできない
+ﾈｰﾐﾝｸﾞの際にﾛｰﾏ字をつければいい
+------------------------
+
+xfree→ﾀﾞｳﾝﾛｰﾄﾞ   
+
+1 転送方法
+ﾃﾞｰﾀﾍﾞｰｽはｴｸｽﾎﾟｰﾄ→ｲﾝﾎﾟｰﾄ
+MYsqlのﾊﾞｰｼﾞｮﾝによって使える文字ｴﾝｺｰﾄﾞが違う
+ｲﾝﾎﾟｰﾄ時に出るｴﾗーを見て文字を置換する
+2 fileはFTP転送
+ｱﾌﾟﾘはFTP転送
+ｱﾌﾟﾘは
+
+ｻｲﾄ公開のためのｻｰﾊﾞｰ
+Filezilla
+
+
+-----------------------------------------
+linux上にｻｰﾊﾞｰをおいて実行する
+   仮想環境 OSを入れる Apacheを入れるmysqlを入れる
+   vargrant osがﾊﾟｯｹーじされる
+
+
+   windows sub system Linux 
+   windows上にLinux環境を作る一番いい方法
+   store ｱﾌﾟﾘでubuntuを検索
+   cpuの割当が必要
+   gitのｲﾝｽﾄーﾙ
+------------------------------------------------------------------------
+[product.php]
+<?php
+ﾛｼﾞｯｸを書く人
+?>
+<div>
+<from見た目を書く人同時に二人が作業できる>
+<h2> ｺﾛﾅｳｲﾙｽのための一般的な更新など
+枝分かれした公開用にしてまたもどせる
+
+同時に同じfileの別ﾊﾞｰｼﾞｮﾝ
+が存在している
+表面にﾃﾞているのは枝分かれしたうちの一つ
+
+ﾛｰｶﾙだけでも試せるがWEB上の公開ｴﾘｱにfileをｱｯﾌﾟして公開できる
+git hubにｱｶｳﾝﾄを作る
+
+fileの行単位で自動結合する機能がある  →ﾏｰｼﾞ
+
+
+
+ﾘﾎﾟｼﾞﾄﾘ(ﾌﾟﾛｼﾞｪｸﾄ)
+ﾌﾞﾗﾝﾁ本体から枝わかれして作られた本体
+ｺﾐｯﾄ(file)ｺｰﾄﾞ完了の印をつけること
+↓
+ﾌﾞｯｼｭgit hub にﾘﾓｰﾄのfileを持っていくこと
+↓
+ﾘｸｴｽﾄﾏｰｼﾞのための準備できたことをしらせる
+
+1git hub に1nats-shopとゆうﾘﾎﾟｼﾞﾄﾘをつくる
+publickにする
+↓
+
+careateripojitori
+↓
+(ここでたること)↓
+git Bash発動
+↓
+ssh kei_ishii@192.168.17.138
+↓
+wert3333 見えない
+↓
+cd/var/www/html/自分のｱｶｳﾝﾄ
+↓
+cdﾅｯﾂｼｮｯﾌﾟﾌｫﾙﾀﾞ名
+↓
+この先はgithubの｢...or crete a new｣
+repoojitoryに書かれてたｺﾏﾝﾄﾞを順次実行
+
+
+
+
+
+
+2ﾛｰｶﾙでｺｯﾐｯﾄにﾘﾓｰﾄにﾌﾟｯｼｭ
+
+git int隠しﾎﾙﾀﾞ
+gitadd..対してｺﾐｯﾄした
+git
+gitfdfgh....新しいﾘﾎﾟｼﾞﾄﾘにたいしてﾛｰｶるを紐つける
+gitﾀﾞｳﾝﾛｰﾄﾞ
+git urlのmasterに対してｱｯﾌﾟﾛｰﾄﾞ
+git add README..mdではなくgit add
+addの次はﾄﾞｯﾄ(すべてのfileの意味)
+
+git -vershonでgit
+
+
+
+echo "# nats12shop" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kei-issii/nats12shop.git
+git push -u origin master
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

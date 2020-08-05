@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="drift-basic.css" rel="stylesheet">
+  <style>
+    .photo {
+      width: 300px;
+      float: left;
+    }
+    .detail {
+      position: relative;
+      float: left;
+      margin-left: 20px; 
+      width: 650px;
+      height: 450px;
+      background: #eee;
+    }
+    @media (max-width: 790px) {
+      .examples {
+        width: 300px;
+      }
+      .detail {
+        display: none;           
+      }
+    }
+    .drift-open{
+      background: rgba(255,255,255,0.5);
+    }
+    </style>
+</head>
+<body>
+  
+
+
+
+<a href="https://www.wp-benricho.com/drift-js/"> <p>Drift.jsを使ってECサイトでよく見かける商品画像の拡大表示を実装する方法</p></a>
+<div class="examples">
+  <img class="photo" src="LivingRoom_Lounge4-1_800.jpg" data-zoom="LivingRoom_Lounge4-1.jpg">
+  <div class="detail"><!---ここに拡大画像が映る--></div>
+
+  
+</div>
+
+<script src="Drift.js"></script>
+<script>
+  new Drift(document.querySelector('.photo'), {
+    paneContainer: document.querySelector('.detail'),
+    zoomFactor: 8,
+    inlinePane: 990,  //虫眼鏡表示に切り替える横幅
+    inlineOffsetY: -85,
+    containInline: true,
+    hoverBoundingBox:true //追加,エリアが出る
+    ,touchBoundingBox:false
+  });
+</script>  
+</body>
+</html>

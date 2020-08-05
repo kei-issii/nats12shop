@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" href="slick/slick-theme.css">
+<style> 
+#slick{width: 800px; margin: auto;}
+.slick-prev:before,
+  .slick-next:before {  color: black; }
+  .slick-slide { margin: 0px 20px;}
+  #slick{height: 220px; width: 95%;margin: 0 auto;}
+  .slick-next:before {  content: "→";}
+</style>
+<div id="slick">
+  <div><img src="P13_CS7A.jpg" alt=""></div>
+  <div><img src="P31_87t.jpg""></div>
+  <div><img src="p14_LHS9.jpg" alt=""></div>
+  <div><img src="p15_CC5T.jpg" alt=""></div>
+  <div><img src="p16_LC22.jpg" alt=""></div>
+  <div><img src="p17_20T.jpg" alt=""></div>
+  <div><img src="p18_14T.jpg" alt=""></div>
+  <div><img src="p19_20T.jpg" alt=""></div>
+  <div><img src="p20_etc.jpg" alt=""></div>
+  <div><img src="p28_CC5BT_n.jpg" alt=""></div>
+  <div><img src="p29_20TBL_n.jpg" alt=""></div>
+  <div><img src="P30_LC2CSFLM.jpg" alt=""></div>
+  <div><img src="P31_87t.jpg" alt=""></div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="slick/slick.js"></script>
+<script>
+  $('#slick').slick({
+    autoplay: true,
+		autoplaySpeed: 2000,
+		dots: true,
+		slidesToShow: 5,
+  slidesToScroll: 1,
+  });
+</script>

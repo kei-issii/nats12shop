@@ -1,0 +1,43 @@
+<div class="examples">
+    <img class="photo" src="image/sample-small.jpg" data-zoom="image/sample-large.jpg">
+    <div class="detail"></div>
+  </div>
+  <link href="css/drift-basic.css"/ rel="stylesheet">
+  <style>
+  .examples {
+    margin: 0 auto;
+    max-width: 770px;
+    height: 450px;
+  }
+  .photo {
+    width: 300px;
+    float: left;
+  }
+  .detail {
+    position: relative;
+    float: left;
+    margin-left: 20px; 
+    width: 450px;
+    height: 450px;
+    background: #eee;
+  }
+  @media (max-width: 790px) {
+    .examples {
+      width: 300px;
+    }
+    .detail {
+      display: none;
+    }
+  }
+  </styyle>
+  <script src="js/Drift.js"></script>
+  
+  <script>
+  new Drift(document.querySelector('.photo'), {
+    paneContainer: document.querySelector('.detail'),
+    zoomFactor: 3,
+    inlinePane: 790,
+    inlineOffsetY: -85,
+    containInline: false
+  });
+  </script>
